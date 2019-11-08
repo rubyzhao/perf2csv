@@ -8,7 +8,8 @@ npm install perf2csv
 ```
 
 ## Usage
-
-perf2csv CombinedLogs.csv
-
+```sh
+perf2csv
+```
+Combine all *.log files to CombinedLog.csv
 
