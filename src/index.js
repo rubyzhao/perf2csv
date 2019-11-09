@@ -53,7 +53,7 @@ files.forEach(file => {
         let Results = lines.substring(startIndex, lines.length);
         // Replace }]" with }] at end of the file
         Results = Results.replace('}]"', '}]');
-        console.log(Results);
+        // console.log(Results);
         const jsonResult = JSON.parse(Results);
         let newLine = '';
         if (i == 0) {

@@ -4,7 +4,7 @@ Combine performance files from browser to one csv file.
 
 ## Install
 ```sh
-npm install perf2csv
+npm install perf2csv -g
 ```
 
 ## Usage

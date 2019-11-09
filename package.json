@@ -1,10 +1,10 @@
 {
   "name": "perf2csv",
-  "version": "0.1.1",
+  "version": "0.1.5",
   "description": "Combine log/txt files from Chrome/Firefox performance.getEntries() to csv file ",
   "main": "./src/index.js",
   "bin": {
-    "perf2csv": "./bin/index.js"
+    "perf2csv": "./bin/perf2csv.js"
   },
   "files": [
     "/src", "/bin","/test"
