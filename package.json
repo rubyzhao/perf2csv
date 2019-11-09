@@ -1,21 +1,28 @@
 {
   "name": "perf2csv",
   "version": "0.1.1",
-  "description": "ombine log files from Chrome performance.getEntries() to csv file ",
-  "main": "perf2csv.js",
+  "description": "Combine log/txt files from Chrome/Firefox performance.getEntries() to csv file ",
+  "main": "./src/index.js",
   "bin": {
     "perf2csv": "./bin/index.js"
   },
+  "files": [
+    "/src", "/bin","/test"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rubyzhao/md2csv.git"
+    "url": "git+https://github.com/rubyzhao/perf2csv.git"
   },
   "keywords": [
     "csv",
     "markdown",
+    "Chrome",
+    "Firefox",
+    "performance",
+    "getEntries",
     "md"
   ],
   "author": "RubyZhao",
@@ -28,7 +35,8 @@
     "node": ">=12.11.1"
   },
   "dependencies": {
-    
+    "dateformat":"^3.0.3",
+    "opn":"^6.0.0"
   },
   "devDependencies": {
     "eslint": "^5.10.0",
